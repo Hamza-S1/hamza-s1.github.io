@@ -7,31 +7,237 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 900px;
+      max-width: 1100px;
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
+      color: #111;
+      background: #fff;
     }
+
+    h1 {
+      font-size: 44px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
     .card {
       border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 18px;
-      margin: 18px 0;
+      border-radius: 12px;
+      padding: 20px;
+      background: #fafafa;
     }
-    a {
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin-bottom: 16px;
+      color: #555;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 12px;
+      margin-bottom: 8px;
       text-decoration: none;
       font-weight: bold;
-      margin-right: 12px;
+      color: #0b57d0;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .top-note {
+      margin-top: 10px;
+      margin-bottom: 35px;
+      padding: 16px 18px;
+      background: #f5f7fb;
+      border: 1px solid #dfe6f3;
+      border-radius: 12px;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <h1>Hamza S</h1>
-  <p>LaTeX course notes, math/stat writeups, and academic work.</p>
+  <p class="subtitle">LaTeX course notes, mathematical writeups, and academic work.</p>
 
-  <div class="card">
-    <h2>Coming soon</h2>
-    <p>I’m building this portfolio to showcase my LaTeX notes and coursework.</p>
+  <div class="top-note">
+    This portfolio contains my course notes written in LaTeX, along with compiled PDFs and source files.
+  </div>
+
+  <h2>Statistics</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>STA256</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/sta256.pdf" target="_blank">View PDF</a>
+        <a href="source/sta256/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>STA258</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/sta258.pdf" target="_blank">View PDF</a>
+        <a href="source/sta258/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>STA260</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/sta260.pdf" target="_blank">View PDF</a>
+        <a href="source/sta260/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>STA302</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/sta302.pdf" target="_blank">View PDF</a>
+        <a href="source/sta302/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>STA304</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/sta304.pdf" target="_blank">View PDF</a>
+        <a href="source/sta304/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>STA305</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/sta305.pdf" target="_blank">View PDF</a>
+        <a href="source/sta305/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>Mathematics</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>MAT202</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat202.pdf" target="_blank">View PDF</a>
+        <a href="source/mat202/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT223</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat223.pdf" target="_blank">View PDF</a>
+        <a href="source/mat223/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT224</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat224.pdf" target="_blank">View PDF</a>
+        <a href="source/mat224/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT232</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat232.pdf" target="_blank">View PDF</a>
+        <a href="source/mat232/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT236</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat236.pdf" target="_blank">View PDF</a>
+        <a href="source/mat236/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT244</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat244.pdf" target="_blank">View PDF</a>
+        <a href="source/mat244/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT301</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat301.pdf" target="_blank">View PDF</a>
+        <a href="source/mat301/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT344</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat344.pdf" target="_blank">View PDF</a>
+        <a href="source/mat344/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT392</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat392.pdf" target="_blank">View PDF</a>
+        <a href="source/mat392/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>MAT402</h3>
+      <p>Course notes and LaTeX source.</p>
+      <div class="links">
+        <a href="notes/mat402.pdf" target="_blank">View PDF</a>
+        <a href="source/mat402/main.tex" target="_blank">View Source</a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
